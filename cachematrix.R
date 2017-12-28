@@ -1,6 +1,8 @@
-## Caching the inverse of a matrix
+## Caching the Inverse of a Matrix
 
-## The following functions are used to create a matrix an
+## The following functions are used to create a "special" matrix
+## object that can cache its inverse, then later (if said inverse exists) 
+## retrieve the inverse from the cache. 
 
 ## The makeCacheMatrix function creates 4 additional functions
 ## (2 to get and set a matrix, 2 to get and set the inverse of the matrix)
